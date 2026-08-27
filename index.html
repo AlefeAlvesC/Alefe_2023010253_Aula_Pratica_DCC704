@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Falhas intencionais: Ausencia de meta charset,viewport e description-->
+    <title>Pagina</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--Topo não semântico-->
+    <div class="topo">
+      <div class="nome-site">Meu Blog Pessoal</div>
+      <div class="links-menu">
+        <div class="link-item" onclick="alert('indo para o inicio')">
+          INICIO
+        </div>
+        <div class="link-item" onclick="alert('indo para as trajetórias')">
+          Trajetória
+        </div>
+        <div class="link-item" onclick="alert('indo para as curiosidades')">
+          Curiosidades
+        </div>
+      </div>
+    </div>
+    <!-- Bloco para a versão 2 otimizada TODO-->
+    <div class="corpo-pagina">
+      <!--Bloco com conteudo principal-->
+      <div class="conteudo-principal">
+        <div class="post-perfil">
+          <div class="titulo-post">Olá, eu sou o Álefe Alves!</div>
+          <div class="subtitulo-autor">Publicado em 27/08/2026 por Álefe</div>
+          <div class="bloco-foto">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQUDBAYCB//EADIQAAICAQIEBAUEAAcAAAAAAAABAgMEESEFEjFREzJBcSJCUmGRFDOBsSNicoKhwdH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/APuIAAAGHJyK8avntlov7Ay6mpk8Rxsd8srNZfTHdlPm8VtvbjXrXD7dWvc0CwWl/GrZPSiuMF3luzTszsuzzZE/4en9GsCxHqU5y805v3kQm16v8kADLDIuh5LrF/uZs1cWy6/NNWLtJGiAL7H41VPRXQcH3T1RZVWwtipVyUk/VHHmSi+yifNVNxZNwdgCrwOLQu0rvShZ39GWaIqQAAAAAAw5V8MamVtnRf8AL7AeM7MrxKuaW8ntGK6s5nJyLMm3xLZav0S6IZN88m6Vljer6L0S7GI1AAAQAAAAAAAAAAAtuF8UcGqcmTcXtGT9Pf7FSBB2aepJScFz9eXGub1+Rv8AoukZVIAAh9DnOMZbyMjw4v4K3pt0b9S54nkfp8Sco+d/DH3Zy5cEAAqAAAAG5jYFl65pfBDv6ijTBeV8OxoJKUHN95M9vBxmtPBivbYUUALa/hcGm6ZOL9E90Vltc6Z8lkXGQHgAAAABKbTUovSSeqZ1HDcr9VjqbfxraXucsb/BsjwMtRk/gs2f2foSK6UEL7ggoeP3c11dS6Rjq/dlUbPEZ+JnXy/zafjY1jWIAAAAT16DRvcMxFbLxbPJF7Luy4XQx49apphWl0RkMqAAAYMrHhk18stpLyy7GcAc1OMoScJrSSe6PJYcYr0uhYvnWj/grzSAAAEptNNdU9iANHXY1vjY9dn1R1JNDgtqeEoye8ZNEGVUVj5rZy7ybPJLWjfuQaQAAA91fuR/1I8E6tdAOmBjx7FbTCa+ZGQyoAAAAAruNftVd9Xp+CpLHjFvNdCtfIt/dlcaxAAAAABt4l/hVuPNprLUGvCDktUAPWTDkybYtaaTZiN7jNXh50pek0pGiAAAAAAWHC8tVS8K1/BLo38rLfU5g3MXiFlKUZrnh6L1RILsGrXxDGmt58r7SR7eZjrrdB+xFZzDlZEcarnlpq/Ku5q38UhFNUxc33eyKu22d03Ox6tlgic5WTlOb1lJ6tnkAqAAAAAC24TjeLjSk/rf9IkseFVeFgVJ9WuZ/wAglVq8fo56YXRW8Ho/ZlCdjdXG2qVclqpLRnJZFMqLpVT6xf5GajGACgASk20ktW+iQED0LDH4ZZNKV75I9luzfqwsery1p/eW7CqFJvomyXGS+V/g6RRiuiS9keiDl9d9AdJOmuxfFXF+6NO/hdU9XU3W+3VCinBmyMa3Hf8AiR27rdGEqAAAGXFpeRkQqXzPR+3qYi74DiuMZZElvLaPsSqt4pKKUei2QPQIBV8ZwndUralrZDr90WhDQHGAteL8OdbeRRH4Osor0+5VpavRb6s1iPVVU7pqFcW2y7w8OvGWu0rPWX/hGBiqirWSXiS6v/o2kSqJaAAgAAAAAIlBSi4ySafVMqM/BdP+JVvX6r6S4DSa0fR9QOYBt8Qxf09q5f25eX7fYw49E8m1V1LVvq+xpGTBxZZV6gvKt5y7I6muEa4RhBaRitEjBhYsMWnkgtX80u7NkyoAAAAAhrUrbOF1rKV9W0Vq3D01LMAaW+u/UG1OtS6mCVUo9NwPADAAAAAAAGpKi5PZGWNH1fgDVvxv1dTr6eql2NjCxK8WvlrW780n1ZsJaLRLYkAAAAAAAAAAAAAA8uMX1RjlVDqSAMLWhBAAyRri+pmVcOxAA96LsSAAAAAAAAAB/9k=" alt="" class="foto-perfil" />
+          </div>
+          <div class="secao-texto">
+            <div class="titulo-secao">
+              Minha trajetória academica e profissional
+            </div>
+            <div class="texto">
+              Eu sou...
+            </div>
+          </div>
+          <div class="secao-texto">
+            <div class="titulo-secao">Curiosidades sobre o Álefe</div>
+            <div class="texto">
+              Gosto de comer o cu de curioso.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
