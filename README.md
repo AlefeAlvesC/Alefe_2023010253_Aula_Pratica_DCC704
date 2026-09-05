@@ -12,8 +12,8 @@ Ambas as versões compartilham o mesmo layout visual e propósito de conteúdo, 
 
 Você pode acessar e inspecionar o código de cada uma das versões nos links abaixo:
 
-- 🌐 **Versão Semântica:** [Acesse aqui](https://github.com/AlefeAlvesC/Alefe_2023010253_Aula_Pratica_DCC704/versao-otimizada/)
-- 📦 **Versão Não Semântica (Divs):** [Acesse aqui](https://github.com/AlefeAlvesC/Alefe_2023010253_Aula_Pratica_DCC704/versao-nao-otimizada/)
+- 🌐 **Versão Semântica:** [Acesse aqui](https://alefealvesc.github.io/Alefe_2023010253_Aula_Pratica_DCC704/versao-otimizada/)
+- 📦 **Versão Não Semântica (Divs):** [Acesse aqui](https://alefealvesc.github.io/Alefe_2023010253_Aula_Pratica_DCC704/versao-nao-otimizada/)
 
 ---
 
