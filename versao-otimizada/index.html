@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="topo">
+      <nav>
+        <p class="nome-site">Meu Blog Pessoal</p>
+        <ul class="links-menu">
+          <li class="link-item" onclick="alert('indo para o inicio')">
+            INICIO
+          </li>
+          <li class="link-item" onclick="alert('indo para as trajetórias')">
+            Trajetória
+          </li>
+          <li class="link-item" onclick="alert('indo para as curiosidades')">
+            Curiosidades
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="corpo-pagina">
+      <div class="conteudo-principal">
+        <div class="post-perfil">
+          <h1 class="titulo-post">Olá, eu sou o Álefe Alves!</h1>
+          <p class="subtitulo-autor">Publicado em 27/08/2026 por Álefe</p>
+          
+          <div class="bloco-foto">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="Foto de rosto do autor da página"
+              class="foto-perfil" 
+            />
+          </div>
+          
+          <section class="secao-texto">
+            <h2 class="titulo-secao">
+              Minha trajetória academica e profissional
+            </h2>
+            <p class="texto">
+              Desenvolvedor em formação com foco em Front-End, buscando aplicar
+              conhecimentos em HTML, CSS e React.js. Comprometido com o desenvolvimento
+              de interfaces responsivas e a integração de APIs REST. Possuo forte interesse em
+              aprimorar habilidades técnicas e contribuir para o crescimento e resultados da
+              equipe.
+            </p>
+          </section>
+          
+          <section class="secao-texto">
+            <h2 class="titulo-secao">Curiosidade Sobre Mim</h2>
+            <p class="texto">
+              - Gosto de praticar esportes (basquete, futebol, vôlei);
+              <br>
+              - Gosto bastante de ouvir música;
+              <br>
+              - Torço para o Atlético-MG
+            </p>
+          </section>
+          
+          <button class="botao-interativo" id="btn-mensagem">
+            Clique Aqui Para Saber Mais
+          </button>
+          
+          <p
+            id="mensagem-secreta"
+            style="display: none; margin-top: 15px; color: #aaa"
+          >
+            O link para o meu portifolio real é: 
+            <a href="https://alefealvesc.github.io/Projeto-Iteam-Modulo3/portifolio-pessoal/">Meu Portifolio Real</a>
+          </p>
+        </div>
+      </div>
+    </main>
+    
+    <aside class="barra-lateral">
+      <h2 class="titulo-lateral">Artigos Recomendados</h2>
+      <a href="https://www.alura.com.br/artigos/organizando-o-css-no-seu-projeto?srsltid=AfmBOopId8vsn69Xqa4V2CdnE0bqALGvS6h89w5D7SViuvDlLIJliVup" class="item-lateral">Como Organizar o CSS do seu projeto</a>
+      <a href="https://www.dio.me/articles/html-css-e-javascript-a-triade-da-web" class="item-lateral">A Triade da Web: HTML, CSS, JavaScript</a>
+    </aside>
+
+
+    <footer class="rodape">
+      <p>Copyright - Todos os Direitos Reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
